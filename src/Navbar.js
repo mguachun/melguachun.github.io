@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-scroll";
 function Navbar() {
     return(
-        <div id="nav" className="row nav-bar">
-      <div className="col-sm-6 nav-left">
-        <p className="nav-name">Melissa  Guachun 
-      </p>
+        <div id="nav">
+      <div className="title-container">
+        <p className="nav-name">Melissa Guachun 
+        <img src={require("./images/computer-plain.jpg")} id="logo" />
+        </p>
       </div>
       <div className="col-sm-6 nav-right">
         <Link className="nav-button" to="about" spy={true} smooth={false}>

@@ -4,7 +4,7 @@ function Navbar() {
     return(
         <div id="nav" className="row nav-bar">
       <div className="col-sm-6 nav-left">
-        <p className="nav-name">Melissa Guachun 
+        <p className="nav-name">Melissa Ava Guachun 
         <img href=""</p>
       </div>
       <div className="col-sm-6 nav-right">

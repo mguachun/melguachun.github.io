@@ -4,8 +4,8 @@ function Navbar() {
     return(
         <div id="nav" className="row nav-bar">
       <div className="col-sm-6 nav-left">
-        <p className="nav-name">Melissa Ava Guachun 
-        <img href=""</p>
+        <p className="nav-name">Melissa  Guachun 
+      </p>
       </div>
       <div className="col-sm-6 nav-right">
         <Link className="nav-button" to="about" spy={true} smooth={false}>

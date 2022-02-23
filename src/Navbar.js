@@ -1,38 +1,32 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import {Nav} from 'react-bootstrap'
 function Navbar() {
-    return(
-        <div id="nav">
+  return (
+    <div id="nav">
+     
+      <Nav defaultActiveKey="/home" as="ul">
       <div className="title-container">
-        <p className="nav-name">Melissa Guachun 
-        <img src={require("./images/computer-plain.jpg")} id="logo" />
+        <p className="nav-name">Melissa Guachun
+          <img src={require("./images/computer-plain.jpg")} alt="logo" id="logo" />
         </p>
       </div>
-      <div className="col-sm-6 nav-right">
-        <Link className="nav-button" to="about" spy={true} smooth={false}>
-          About
-        </Link>
-        <Link className="nav-button" to="skills" spy={true} smooth={false}>
-          Skills
-        </Link>
-        <Link className="nav-button" to="projects" spy={true} smooth={false}>
-          Projects
-        </Link>
-        <Link className="nav-button" to="contact" spy={true} smooth={false}>
-          Contact
-        </Link>
+        <Nav.Item as="li">
+          <Nav.Link href="/about">About</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Nav.Link href="/skills">Skills</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Nav.Link href="/projects">Projects</Nav.Link>
+        </Nav.Item>
+        <Nav.Item as="li">
+          <Nav.Link href="/contact">Contact</Nav.Link>
+        </Nav.Item>
+      </Nav>
 
-        <Link
-          className="home-button background-none"
-          to="nav"
-          spy={true}
-          smooth={false}
-        >
-          
-        </Link>
-      </div>
     </div>
 
-    )
+  )
 }
 export default Navbar;

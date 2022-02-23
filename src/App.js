@@ -3,14 +3,14 @@ import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Projects from "./Projects";
-import Navbar from "./Navbar";
+import Navigation from "./Navigation";
 import Home from "./Home";
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navigation />
       <Home />
       <About />
       <Skills />

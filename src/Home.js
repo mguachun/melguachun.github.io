@@ -8,13 +8,10 @@ function Home() {
           <div className="row justify-content-center home-container">
             <div className="col-md-5">
               <img className="profile-image"  src={require("./images/IMG_3680.jpg")} alt="profile-img" id="profile-img"></img>
-              {/* src={pic} */}
-            </div>
-            <div id="intro">
+              <div id="intro">
             <h1 > Hey, I'm Melissa </h1>
                 <p>Software Engineer, Visual Artist ,Creative </p> 
             </div>
-     
             <div className="col-md-5 justify-content-center">
               <div className="home-name">
                 
@@ -23,6 +20,10 @@ function Home() {
               </div>
             
             </div>
+            </div>
+           
+     
+          
           </div>
         </div>
       </div>

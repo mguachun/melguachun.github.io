@@ -14,20 +14,41 @@ body{
 }
 
 #profile-img{
+  
   border-radius: 1000px;
   height: 375px;
   width: 275px;
   display: block;
   margin: 0px auto;
+  margin-top: 180px;
 }
 
 #computer{
   height: 450px;
   width: auto;
-  margin-left: 300px;
+  margin-left: 20px;
 
 }
 
 #intro{
   text-align: center;
 }
+
+#nav {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  margin-left: 0 !important;
+  overflow: hidden;
+  z-index: 1;
+  padding-top: 10px;
+  
+}
+
+.nav-name{
+  font-size: xx-large;
+  padding-left: 15px;
+  background-color: rgb(234, 238, 251);
+  font-family: "BioRhyme", serif;
+}
+

@@ -1,5 +1,5 @@
 import React from "react";
-import computer from "./images/computer-plain.jpg"
+
 
 function Home() {
     return(
@@ -7,13 +7,19 @@ function Home() {
         <div className="container">
           <div className="row justify-content-center home-container">
             <div className="col-md-5">
-              <img className="profile-image" ></img>
+              <img className="profile-image"  src={require("./images/IMG_3680.jpg")} alt="profile-img" id="profile-img"></img>
               {/* src={pic} */}
             </div>
+            <div id="intro">
+            <h1 > Hey, I'm Melissa </h1>
+                <p>Software Engineer, Visual Artist ,Creative </p> 
+            </div>
+     
             <div className="col-md-5 justify-content-center">
               <div className="home-name">
-                Hey, I'm Melissa <span><img  className="home-smiley"/></span>
-                {/* src={smile} */}
+                
+            <img src={require("./images/computers.jpg")} id="computer"/>
+           
               </div>
             
             </div>

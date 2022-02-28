@@ -20,13 +20,12 @@ body{
 }
 
 #profile-img{
-  
   border-radius: 1000px;
   height: 375px;
   width: 275px;
   display: block;
   margin: 0px auto;
-  margin-top: 180px;
+  margin-top: 80px;
 }
 
 #computer{
@@ -50,14 +49,17 @@ body{
   padding-top: 10px;
 
 }
-  
-
 
 .nav-name{
-  font-size: xx-large;
+  font-size: 45px;
   padding-left: 15px;
   background-color: rgb(234, 238, 251);
   font-family: 'MuseoModerno', cursive;
 
 }
 
+.about-blurb{
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 10px;
+}

@@ -1,10 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Red+Hat+Display&family=Source+Code+Pro:wght@400;500&display=swap');
 .App {
   text-align: center;
+
+  
 }
 body{
   background-color: rgb(234, 238, 251);
+  font-family: 'MuseoModerno', cursive;
+  
+  
 }
-
 
 #logo {
   height: 50px;
@@ -42,13 +48,16 @@ body{
   overflow: hidden;
   z-index: 1;
   padding-top: 10px;
-  
+
 }
+  
+
 
 .nav-name{
   font-size: xx-large;
   padding-left: 15px;
   background-color: rgb(234, 238, 251);
-  font-family: "BioRhyme", serif;
+  font-family: 'MuseoModerno', cursive;
+
 }
 

@@ -12,7 +12,7 @@ function About() {
                 spent 10 months refining my skills as a full stack developer. I am eager to find my place on a 
                 collaborative team of talented individuals where I can continue expanding my knowledge and developing new skills.
                 When I'm not coding new projects, you can find me working on my art, digging through crates at a record store, or 
-                exploring my neighborhood with my dog Fletcher.
+                exploring the neighborhood with my dog Fletcher.
            </h4>
            <img src={require("./images/computers.jpg")} id="computer" alt="computer illustration with colors coming out of the monitor"/>
 

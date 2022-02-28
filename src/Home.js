@@ -12,18 +12,7 @@ function Home() {
             <h1 > Hey, I'm Melissa </h1>
                 <p>Software Engineer, Visual Artist ,Creative </p> 
             </div>
-            <div className="col-md-5 justify-content-center">
-              <div className="home-name">
-                
-            <img src={require("./images/computers.jpg")} id="computer"/>
-           
-              </div>
-            
             </div>
-            </div>
-           
-     
-          
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
               <img className="profile-image"  src={require("./images/IMG_3680.jpg")} alt="profile-img" id="profile-img"></img>
               <div id="intro">
             <h1 > Hey, I'm Melissa </h1>
-                <p>Software Engineer, Visual Artist ,Creative </p> 
+                <p>Software Engineer, Visual Artist, Creative </p> 
             </div>
             </div>
           </div>

@@ -1,7 +1,13 @@
 import React from "react";
 function About() {
     return(
-        <h1>About Page</h1>
+        <div>
+            <h4>
+            <img src={require("./images/computers.jpg")} id="computer"/>
+           </h4>
+
+        </div>
+        
     )
 }
 export default About;

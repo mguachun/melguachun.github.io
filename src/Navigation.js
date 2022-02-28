@@ -1,6 +1,7 @@
 import React from "react";
 // import { Link } from "react-scroll";
 import {Nav} from 'react-bootstrap'
+import './App.css';
 function Navigation() {
   return (
     <div id="nav">
@@ -12,7 +13,7 @@ function Navigation() {
         </p>
       </div>
 
-        <Nav.Item as="li" className="nav-right">
+        {/* <Nav.Item as="li" className="nav-right">
           <Nav.Link href="/#about">About</Nav.Link>
         </Nav.Item>
         <Nav.Item as="li">
@@ -23,7 +24,7 @@ function Navigation() {
         </Nav.Item>
         <Nav.Item as="li">
           <Nav.Link href="/#contact" className="nav-right">Contact</Nav.Link>
-        </Nav.Item>
+        </Nav.Item> */}
       </Nav>
 
     </div>

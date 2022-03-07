@@ -66,7 +66,7 @@ body{
   flex-wrap: wrap;
   height: 100vh;
   padding: 75px;
-  border-bottom: 3px black solid;
+  /* border-bottom: 3px black solid; */
 }
 
 .skills-title {

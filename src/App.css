@@ -1,15 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Red+Hat+Display&family=Source+Code+Pro:wght@400;500&display=swap');
 .App {
-  text-align: center;
-
-  
+  text-align: center; 
 }
 body{
   background-color: rgb(234, 238, 251);
   font-family: 'MuseoModerno', cursive;
-  
-  
 }
 
 #logo {
@@ -62,4 +58,46 @@ body{
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  padding: 75px;
+  border-bottom: 3px black solid;
+}
+
+.skills-title {
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 3px #403c6d;
+  margin: 0;
+  font-size: 75px;
+  padding: 20px;
+}
+
+.skill-icon {
+  justify-self: center;
+  margin: 15px;
+  height: 125px;
+  padding: 15px;
+  border-radius: 1000px;
+  background-color: #93A6B8ff;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 50%);
+  border: 1px #403c6d;;
+}
+
+.skill-icon-container {
+  background: none;
+  text-align: center;
+  margin: 20px;
+}
+
+.skill-icon-container > p {
+  background: none;
+  font-size: large;
+  left: 10px;
 }

@@ -14,7 +14,10 @@ function About() {
                 When I'm not coding new projects, you can find me working on my art, digging through crates at a record store, or 
                 exploring the neighborhood with my dog Fletcher.
            </h4>
+           <div>
            <img src={require("./images/computers.jpg")} id="computer" alt="computer illustration with colors coming out of the monitor"/>
+           </div>
+           
 
         </div>
         

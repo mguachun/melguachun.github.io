@@ -6,6 +6,7 @@ import react from "./images/react.png";
 import ruby from "./images/ruby.png";
 import ror from "./images/ror.png";
 import git from "./images/git.png";
+import ps from "./images/photoshop.png"
 
 
 function Skills() {
@@ -46,6 +47,10 @@ function Skills() {
           <div className="skill-icon-container">
             <img src={git} className="skill-icon" />
             <p>Git</p>
+          </div>
+          <div className="skill-icon-container">
+            <img src={ps} className="skill-icon" />
+            <p>Adobe Photoshop</p>
           </div>
         </div>
       </div>

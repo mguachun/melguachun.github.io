@@ -6,8 +6,8 @@ import react from "./images/react.png";
 import ruby from "./images/ruby.png";
 import ror from "./images/ror.png";
 import git from "./images/git.png";
-import ps from "./images/photoshop.png"
-
+import ps from "./images/photoshop.png";
+import sql from "./images/sql.svg";
 
 function Skills() {
   return (
@@ -45,6 +45,10 @@ function Skills() {
             <p>Bootstrap</p>
           </div>
           <div className="skill-icon-container">
+            <img src={sql} className="skill-icon" />
+            <p>SQLite</p>
+          </div>
+          <div className="skill-icon-container">
             <img src={git} className="skill-icon" />
             <p>Git</p>
           </div>
@@ -52,6 +56,7 @@ function Skills() {
             <img src={ps} className="skill-icon" />
             <p>Adobe Photoshop</p>
           </div>
+         
         </div>
       </div>
     </div>

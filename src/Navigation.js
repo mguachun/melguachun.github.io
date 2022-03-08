@@ -6,13 +6,14 @@ function Navigation() {
   return (
     <div id="nav">
      
-      <Nav defaultActiveKey="/home" as="ul">
+      {/* <Nav defaultActiveKey="/home" as="ul"> */}
       <div className="nav-left">
         <p className="nav-name">Melissa Guachun
           <img src={require("./images/computer-plain.jpg")} alt="logo" id="logo" />
         </p>
       </div>
-
+      {/* <div> */}
+{/* 
         <Nav.Item as="li" className="nav-right">
           <Nav.Link href="/#about">About</Nav.Link>
         </Nav.Item>
@@ -25,7 +26,7 @@ function Navigation() {
         <Nav.Item as="li">
           <Nav.Link href="/#contact" className="nav-right">Contact</Nav.Link>
         </Nav.Item>
-      </Nav>
+      </Nav> */}
 
     </div>
 

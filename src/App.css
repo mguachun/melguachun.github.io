@@ -198,16 +198,25 @@ body{
 }
 
 
-.project-container {
+/* .project-container { */
   /* padding: 4rem; */
-  margin-left: 20rem;
+  /* margin-left: 20rem;
   margin-right: 20rem;
   
   display:column;
   grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
   
-} 
+}  */
 
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(234, 238, 251);
+  height: 170vh;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
 /* /for a grid display/ */
 /* .project-container{
   padding: 4rem;

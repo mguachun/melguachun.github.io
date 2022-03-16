@@ -17,11 +17,12 @@ body{
 
 #profile-img{
   border-radius: 1000px;
-  height: 375px;
+  height: 275px;
   width: 275px;
   display: block;
   margin: 0px auto;
-  margin-top: 80px;
+  margin-top: 90px;
+  /* overflow: hidden; */
 }
 
 #computer{

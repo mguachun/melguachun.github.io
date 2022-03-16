@@ -162,6 +162,7 @@ body{
 @media (max-width: 75rem) {
   .project-container {
     height: 350vh;
+
   }
 
   .about-container {
@@ -183,7 +184,7 @@ body{
 
 .project-links {
   background: none;
-  height: 25px;
+  height: 35px;
 }
 
 .project-links:hover {
@@ -195,3 +196,25 @@ body{
   text-align: center;
   font-size: 75px;
 }
+
+
+.project-container {
+  /* padding: 4rem; */
+  margin-left: 20rem;
+  margin-right: 20rem;
+  
+  display:column;
+  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+  
+} 
+
+/* /for a grid display/ */
+/* .project-container{
+  padding: 4rem;
+  margin-left: 16rem;
+  margin-right: 16rem;
+  
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 4em;
+} */

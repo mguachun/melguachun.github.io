@@ -38,7 +38,6 @@ function Home() {
           >
         <img src={dev} alt="" className="contact-icon" />
         </a>
-
             </div>
             </div>
           </div>

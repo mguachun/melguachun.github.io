@@ -12,7 +12,7 @@ function Home() {
               {/* src={require("./images/profile_img.png")} */}
                 <br></br>
                 <h1 > Hey, I'm Melissa </h1>
-                <p>Software Engineer, Visual Artist, Creative </p> 
+                <h4>Software Engineer, Visual Artist, Creative </h4> 
             </div>
             </div>
           </div>

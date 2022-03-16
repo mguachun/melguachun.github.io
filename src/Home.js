@@ -1,5 +1,8 @@
 import React from "react";
 import self from "./images/profile_img.png"
+import linkedin from './images/linkedin.png'
+import github from './images/github.png'
+import dev from './images/dev.png'
 
 function Home() {
     return(
@@ -12,7 +15,30 @@ function Home() {
               {/* src={require("./images/profile_img.png")} */}
                 <br></br>
                 <h1 > Hey, I'm Melissa </h1>
-                <h4>Software Engineer, Visual Artist, Creative </h4> 
+                <h4>Software Engineer, Visual Artist, Creative </h4>
+                <a
+            href="https://www.linkedin.com/in/melissa-guachun/"
+            target="_blank"
+            className="background-none"
+          >
+        <img src={linkedin} alt="" className="contact-icon" />
+        </a>
+        <a
+            href="https://github.com/mguachun"
+            target="_blank"
+            className="background-none"
+          >
+        <img src={github} alt="" className="contact-icon" />
+        </a>
+
+        <a
+            href="https://dev.to/melguachun"
+            target="_blank"
+            className="background-none"
+          >
+        <img src={dev} alt="" className="contact-icon" />
+        </a>
+
             </div>
             </div>
           </div>

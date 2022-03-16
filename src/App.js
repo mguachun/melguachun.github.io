@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Navigation from "./Navigation";
 import Home from "./Home";
+import Resume from "./Resume";
 import './App.css';
 
 function App() {
@@ -13,10 +14,9 @@ function App() {
       <Navigation />
       <Home />
       <About />
+      <Resume />
       <Skills />
-
       <Projects />
-  
       {/* <Contact /> */}
 
 

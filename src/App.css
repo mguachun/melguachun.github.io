@@ -125,3 +125,67 @@ body{
   transform: scale(1.2);
   /* cursor: pointer; */
 }
+
+.project-title {
+
+  justify-content: center;
+  text-align: center;
+}
+
+.project-title > h1 {
+
+  font-size: 75px;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 30px;
+  padding: 0px 0px 10px 0px;
+}
+
+.border-rad {
+  border-radius: 5px;
+}
+
+.project-card {
+  margin: 20px;
+  /* border-radius: 10px; */
+  background-color: #ECEDFDff;
+  border: black 1px solid;
+  box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 20%);
+ 
+}
+
+
+
+@media (max-width: 75rem) {
+  .project-container {
+    height: 350vh;
+  }
+
+  .about-container {
+    height: 130vh!important;  
+  }
+}
+
+.project-img {
+  overflow: hidden;
+}
+.image-container {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.project-img:hover {
+  border-radius: 5px;
+  transform: scale(1.25);
+}
+
+.project-links {
+  background: none;
+  height: 25px;
+}
+
+.project-links:hover {
+  transform: scale(1.2);
+
+} 

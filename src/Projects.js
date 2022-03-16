@@ -9,6 +9,7 @@ import dev from './images/dev.png'
 
 
 
+
 function Projects() {
     return(
         <div id="projects" className="" >
@@ -141,7 +142,8 @@ function Projects() {
   
           </div>
         </div>
-      </div>
+   
+        </div>
     )
 }
 export default Projects;

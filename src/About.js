@@ -15,6 +15,7 @@ function About() {
                 exploring the neighborhood with my dog Fletcher.
            </h4>
            
+           
            <img src={require("./images/computers.jpg")}  id="computer" alt="computer illustration with colors coming out of the monitor"/>
          
         </div>

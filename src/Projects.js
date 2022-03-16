@@ -3,6 +3,9 @@ import GallerySpace from "./images/GallerySpace.png";
 import TicketTracker from "./images/TicketTracker.png";
 import Wishlist from "./images/Wishlist.png";
 import Ghibli from "./images/Ghibli.png";
+import linkedin from './images/linkedin.png'
+import github from './images/github.png'
+import dev from './images/dev.png'
 
 
 
@@ -12,7 +15,7 @@ function Projects() {
          <h1 className="background-none">Projects</h1>
         <div className="row project-title">
 
-          <h6>Here are a few examples of my work.</h6>
+          {/* <h6>Here are a few examples of my work.</h6> */}
         </div>
   
         <div className="row ">
@@ -37,9 +40,8 @@ function Projects() {
                   className="card-link background-white"
                   target="_blank"
                 >
-                 
+                  <img src={github} className="project-links"/>
                 </a>
-               
               </div>
             </div>
   
@@ -59,18 +61,17 @@ function Projects() {
                 </h6>
                 <p className="card-text background-white">
                   Inspired by ticket collectors living in a digital age. Users can log their 
-                  concert or live show ticket information along with comments to keep all your memories 
-                  in one place. Developed with a React.js/ Redux front-end and Ruby on Rails/SQLite back-end.
+                  concert or live show ticket information such as the artist, venue, date, and year. Users
+                  can also log comments about the concert to keep all your memories 
+                  in one place. This application is developed with a React.js frontend, Redux for state management, 
+                   and Ruby on Rails/SQLite back-end.
                 </p>
-    
-                  {/* <img src={youtube} className="project-links youtube"/> */}
-           
                 <a
                   href="https://github.com/mguachun/concert-api-backend.git"
                   className="card-link background-white"
                   target="_blank"
                 >
-                  {/* <img src={github} className="project-links"/> */}
+                  <img src={github} className="project-links"/>
                 </a>
               </div>
             </div>
@@ -86,7 +87,7 @@ function Projects() {
               <div className="card-body border-rad background-white">
                 <h5 className="card-title background-white">My Record Store Wishlist</h5>
                 <h6 className="card-subtitle mb-2 text-muted background-white">
-                  React, CSS
+                  JavaScript, CSS, Bootstrap, HTML, Ruby on Rails
                 </h6>
                 <p className="card-text background-white">
                   Inspired by "Record Store Day", this app will never let you forget the albums you're on the 
@@ -102,11 +103,11 @@ function Projects() {
                   className="card-link background-white"
                   target="_blank"
                 >
-                  {/* <img src={github} className="project-links"/> */}
+                  <img src={github} className="project-links"/>
                 </a>
               </div>
-
             </div>
+
             <div className="card project-card border-rad" style={{ width: "35rem", height: "40rem" }}>
               <div className="image-container">
                 <img
@@ -125,15 +126,15 @@ function Projects() {
                     Users can log in, create their collection by logging their favorie works out art, and save them to their profile.
                     This full-stack application was created with Sinatra and a Ruby on Rails/Active Record backend with RESTFUL routes. Also featuring BCrypt 
                     library to secure user passwords, and sessions and cookies to store user authentication.
-
                 </p>
                 <a
                   href="https://github.com/mguachun/gallery-space.git"
                   className="card-link background-white"
                   target="_blank"
                 >
-                  {/* <img src={github} className="project-links"/> */}
+                  <img src={github} className="project-links"/>
                 </a>
+               
               </div>
             </div>
   

@@ -128,7 +128,7 @@ body{
 }
 
 .project-title {
-
+  
   justify-content: center;
   text-align: center;
 }
@@ -190,3 +190,8 @@ body{
   transform: scale(1.2);
 
 } 
+
+.background-none {
+  text-align: center;
+  font-size: 75px;
+}

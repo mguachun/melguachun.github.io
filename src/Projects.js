@@ -30,10 +30,11 @@ function Projects() {
                   React, Bootstrap, CSS, NPM, Async Fetch, Public API
                 </h6>
                 <p className="card-text background-white">
-                    Studio Ghibli Collection is a centralized hub for exploring and discovering 
-                    the filmography of Studio Ghibli. Users can click on a given movie title and find 
-                  specific information on their movie of choice. This frontend application was created with 
-                  React.js and fetches information for an API. 
+                  Studio Ghibli Collection is a centralized hub for exploring and discovering 
+                  the filmography of Studio Ghibli. Users can click on a given movie title and find 
+                  specific information on their movie of choice such as title translation, director, producer, 
+                  synopsis and so much more! This frontend application was created with React.js and receives 
+                  information from asynchronous fetching from an API. 
                 </p>
                 <a
                   href="https://mguachun.github.io/ghibli-fetch/"

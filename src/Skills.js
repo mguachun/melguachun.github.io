@@ -13,9 +13,8 @@ function Skills() {
   return (
     <div id="skills" className="">
       <div className="row justify-content-center">
-        <h1 className="col-md-12 skills-title">Technical Skills</h1>
         <div className="col-md-12 skills-container justify-content-center">
-  
+        <h1 className="col-md-12 skills-title">Technical Skills</h1>
           <div className="skill-icon-container">
             <img src={javascript} className="skill-icon" />
             <p className="underline">Javascript</p>

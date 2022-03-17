@@ -14,12 +14,10 @@ function Projects() {
     return(
         <div id="projects" className="" >
          <h1 className="background-none">Projects</h1>
-        <div className="row project-title">
-
-          {/* <h6>Here are a few examples of my work.</h6> */}
+        {/* <div className="row project-title">
         </div>
-  
-        <div className="row ">
+   */}
+        <div className="row">
           <div className="col-md-12 project-container justify-content-center">
             <div className="card border-rad project-card" style={{ width: "35rem", height: "40rem"}}>
               <div className="image-container">

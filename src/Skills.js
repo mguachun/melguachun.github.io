@@ -56,9 +56,11 @@ function Skills() {
             <img src={ps} className="skill-icon" />
             <p>Adobe Photoshop</p>
           </div>
-         
+
         </div>
+     
       </div>
+
     </div>
   );
 }

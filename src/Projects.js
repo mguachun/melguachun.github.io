@@ -3,12 +3,9 @@ import GallerySpace from "./images/GallerySpace.png";
 import TicketTracker from "./images/TicketTracker.png";
 import Wishlist from "./images/Wishlist.png";
 import Ghibli from "./images/Ghibli.png";
-import linkedin from './images/linkedin.png'
+// import linkedin from './images/linkedin.png'
 import github from './images/github.png'
-import dev from './images/dev.png'
-
-
-
+// import dev from './images/dev.png'
 
 function Projects() {
     return(
@@ -38,9 +35,11 @@ function Projects() {
                 <a
                   href="https://mguachun.github.io/ghibli-fetch/"
                   className="card-link background-white"
-                  target="_blank"
+
+                  // target="_blank"
                 >
-                  <img src={github} className="project-links"/>
+                  <img src={github} className="project-links"
+                     alt="Github to Studio Ghibli App"/>
                 </a>
               </div>
             </div>
@@ -49,9 +48,10 @@ function Projects() {
             <div className="card project-card border-rad" style={{ width: "35rem", height: "40rem" }}>
               <div className="image-container">
                 <img
+            
                   src={TicketTracker}
                   className="border-rad card-img-top project-img"
-                  alt="..."
+                  alt="Ticket Tracker app homepage"
                 />
               </div>
               <div className="card-body border-rad background-white">
@@ -69,9 +69,10 @@ function Projects() {
                 <a
                   href="https://github.com/mguachun/concert-api-backend.git"
                   className="card-link background-white"
-                  target="_blank"
+                  // target="_blank"
                 >
-                  <img src={github} className="project-links"/>
+                  <img src={github} className="project-links"
+                  alt="Github to Ticket Tracker"/>
                 </a>
               </div>
             </div>
@@ -81,7 +82,7 @@ function Projects() {
                 <img
                   src={Wishlist}
                   className="border-rad card-img-top project-img"
-                  alt="..."
+                  alt="Record Day Wishlist homepage"
                 />
               </div>
               <div className="card-body border-rad background-white">
@@ -101,9 +102,10 @@ function Projects() {
                 <a
                   href="https://github.com/mguachun/record_day_wishlist"
                   className="card-link background-white"
-                  target="_blank"
+                  // target="_blank"
                 >
-                  <img src={github} className="project-links"/>
+                  <img src={github} className="project-links"
+                     alt="Github to Record Day Wishlist"/>
                 </a>
               </div>
             </div>
@@ -113,7 +115,7 @@ function Projects() {
                 <img
                   src={GallerySpace}
                   className="border-rad card-img-top project-img"
-                  alt="..."
+                  alt="Homepage of Gallery Space"
                 />
               </div>
               <div className="card-body border-rad background-white">
@@ -130,9 +132,10 @@ function Projects() {
                 <a
                   href="https://github.com/mguachun/gallery-space.git"
                   className="card-link background-white"
-                  target="_blank"
+                  // target="_blank"
                 >
-                  <img src={github} className="project-links"/>
+                  <img src={github} className="project-links"
+                  alt="Github to Gallery Space"/>
                 </a>
                
               </div>

@@ -18,14 +18,14 @@ function Home() {
                 <h4>Software Engineer, Visual Artist, Creative </h4>
                 <a
             href="https://www.linkedin.com/in/melissa-guachun/"
-            target="_blank"
+            // target="_blank"
             className="background-none"
           >
         <img src={linkedin} alt="" className="contact-icon" />
         </a>
         <a
             href="https://github.com/mguachun"
-            target="_blank"
+            // target="_blank"
             className="background-none"
           >
         <img src={github} alt="" className="contact-icon" />
@@ -33,7 +33,7 @@ function Home() {
 
         <a
             href="https://dev.to/melguachun"
-            target="_blank"
+            // target="_blank"
             className="background-none"
           >
         <img src={dev} alt="" className="contact-icon" />

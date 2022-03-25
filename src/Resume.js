@@ -3,7 +3,7 @@ import CV from "./images/MelissaGuachun_22.png";
 function Resume() {
     return(
             <div>
-                <img className="resume" src={CV}/>
+                <img className="resume" alt="Melissa Guachun Resume 2022" src={CV}/>
             </div>
     )
 }

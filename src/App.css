@@ -70,7 +70,7 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 100vh;
+  height: 200vh;
   padding: 75px;
   /* border-bottom: 3px black solid; */
 }
@@ -161,6 +161,64 @@ body{
  
 }
 
+@media screen and (max-width: 375px) {
+  #profile-img{
+    border-radius: 1000px;
+    height: 275px;
+    width: 275px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 150px;
+    margin-right:auto;
+    margin-left: auto;
+    /* overflow: hidden; */
+  }
+  #computer{
+    height: auto;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  
+  }
+  .resume{
+    width: 450px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  
+  .skill-icon {
+    justify-self: center;
+    margin: 15px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 1000px;
+    background-color: #93A6B8ff;
+    box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 50%);
+    border: 1px #403c6d;
+  }
+  
+  
+  .skill-icon-container {
+    background: none;
+    text-align: center;
+    margin: 20px;
+
+  }
+
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 350vh;
+  padding: 75px;
+  /* border-bottom: 3px black solid; */
+}
+ 
+}   
 
 
 @media (max-width: 75rem) {

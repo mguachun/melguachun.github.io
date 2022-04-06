@@ -1,7 +1,7 @@
 import React from "react";
 import GallerySpace from "./images/GallerySpace.png";
-import TicketTracker from "./images/TicketTracker.png";
-import Wishlist from "./images/Wishlist.png";
+import TicketTracker from "./images/Ticket_Tracker.png";
+import Wishlist from "./images/Record_Wishlist.png";
 import Ghibli from "./images/Ghibli.png";
 // import linkedin from './images/linkedin.png'
 import github from './images/github.png'

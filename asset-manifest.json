@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/melguachun.github.io/static/css/main.4b3cf8cb.css",
+    "main.css": "/melguachun.github.io/static/css/main.b899ba82.css",
     "main.js": "/melguachun.github.io/static/js/main.2674b636.js",
     "static/js/787.3a4dfadf.chunk.js": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js",
     "static/media/profile_img.png": "/melguachun.github.io/static/media/profile_img.9ccb5f087242a60af74b.png",
@@ -14,12 +14,12 @@
     "static/media/GallerySpace.png": "/melguachun.github.io/static/media/GallerySpace.d35050c1a47f4658208e.png",
     "static/media/sql.svg": "/melguachun.github.io/static/media/sql.c4c3db6258e06a7ebd14ebf59ef05a74.svg",
     "index.html": "/melguachun.github.io/index.html",
-    "main.4b3cf8cb.css.map": "/melguachun.github.io/static/css/main.4b3cf8cb.css.map",
+    "main.b899ba82.css.map": "/melguachun.github.io/static/css/main.b899ba82.css.map",
     "main.2674b636.js.map": "/melguachun.github.io/static/js/main.2674b636.js.map",
     "787.3a4dfadf.chunk.js.map": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3cf8cb.css",
+    "static/css/main.b899ba82.css",
     "static/js/main.2674b636.js"
   ]
 }

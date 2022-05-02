@@ -14,11 +14,11 @@ function Home() {
               <div id="intro">
               {/* src={require("./images/profile_img.png")} */}
                 <br></br>
-                <h1 > Hey, I'm Melissa </h1>
+                <h1 > Hey, I'm Melissa</h1>
                 <h4>Software Engineer, Visual Artist, Creative </h4>
                 <a
             href="https://www.linkedin.com/in/melissa-guachun/"
-            // target="_blank"
+            // target="_blank" 
             className="background-none"
           >
         <img src={linkedin} alt="" className="contact-icon" />

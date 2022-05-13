@@ -247,6 +247,7 @@ body{
 .project-links {
   background: none;
   height: 35px;
+  color:#403c6d;
 }
 
 .project-links:hover {

@@ -4,10 +4,13 @@ import TicketTracker from "./images/Ticket_Tracker.png";
 import Wishlist from "./images/Record_Wishlist.png";
 import Ghibli from "./images/Ghibli.png";
 // import linkedin from './images/linkedin.png'
-import github from './images/github.png'
+import github from './images/github.png';
 // import dev from './images/dev.png'
+import deploy from './images/deploy.png';
+
 
 function Projects() {
+
     return(
         <div id="projects" className="" >
          <h1 className="background-none">Projects</h1>
@@ -41,6 +44,19 @@ function Projects() {
                   <img src={github} className="project-links"
                      alt="Github to Studio Ghibli App"/>
                 </a>
+                
+                <a
+                  href="https://mguachun.github.io/studio_ghibli_collection/"
+                  className="card-link background-white"
+
+                  // target="_blank"
+                >
+                  <img src={deploy}  className="project-links"
+                     alt="Deployed Studio Ghibli App"/>
+                </a>
+                
+               
+                   
               </div>
             </div>
   

@@ -58,6 +58,13 @@ body{
   font-family: 'MuseoModerno', cursive;
 
 }
+.nav-right {
+text-align: right;
+justify-content: right;
+padding: 15px 15px 15px 15px !important;
+margin-top: -70px;
+
+}
 
 .about-blurb{
   margin-left: 80px;

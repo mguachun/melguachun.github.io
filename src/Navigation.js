@@ -16,9 +16,11 @@ function Navigation() {
       <Link className="nav-button" to="about-blurb" spy={true} smooth={false}>
           About
         </Link>
+   
         <Link className="nav-button" to="skills" spy={true} smooth={false}>
           Skills
         </Link>
+
         <Link className="nav-button" to="resume" spy={true} smooth={false}>
           Resume
         </Link>

@@ -61,9 +61,15 @@ body{
 .nav-right {
 text-align: right;
 justify-content: right;
-padding: 15px 15px 15px 15px !important;
+padding: 15px 35px 15px 15px !important;
 margin-top: -70px;
 
+
+}
+
+.nav-button {
+  padding: 5px;
+  cursor: pointer;
 }
 
 .about-blurb{
@@ -222,8 +228,14 @@ margin-top: -70px;
   flex-wrap: wrap;
   height: 350vh;
   padding: 75px;
-  /* border-bottom: 3px black solid; */
+
 }
+
+  
+  
+  .nav-right{
+   display: none;
+  }
  
 }   
 

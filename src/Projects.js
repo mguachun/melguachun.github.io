@@ -12,7 +12,7 @@ import deploy from './images/deploy.png';
 function Projects() {
 
     return(
-        <div id="projects" className="" >
+        <div id="projects" className="projects" >
          <h1 className="background-none">Projects</h1>
         {/* <div className="row project-title">
         </div>

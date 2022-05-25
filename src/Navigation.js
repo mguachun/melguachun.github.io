@@ -12,19 +12,23 @@ function Navigation() {
           <img src={require("./images/computer-plain.jpg")} alt="logo" id="logo" />
         </p>
       </div>
-      <Link className="nav-button" to="about" spy={true} smooth={false}>
+      <div className="nav-right">
+      <Link className="nav-button" to="about-blurb" spy={true} smooth={false}>
           About
         </Link>
         <Link className="nav-button" to="skills" spy={true} smooth={false}>
           Skills
         </Link>
+        <Link className="nav-button" to="resume" spy={true} smooth={false}>
+          Resume
+        </Link>
         <Link className="nav-button" to="projects" spy={true} smooth={false}>
           Projects
         </Link>
-        <Link className="nav-button" to="contact" spy={true} smooth={false}>
+        {/* <Link className="nav-button" to="contact" spy={true} smooth={false}>
           Contact
-        </Link>
-
+        </Link> */}
+        </div>
       </div>
      
       )

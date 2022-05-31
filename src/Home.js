@@ -10,7 +10,10 @@ function Home() {
         <div className="container">
           <div className="row justify-content-center home-container">
             <div className="col-md-5">
+              <div className="img-wrapper">
               <img className="profile-image"  src={self} alt="profile-img" id="profile-img"></img>
+              </div>
+              {/* <img className="profile-image"  src={self} alt="profile-img" id="profile-img"></img> */}
               <div id="intro">
               {/* src={require("./images/profile_img.png")} */}
                 <br></br>

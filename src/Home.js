@@ -21,16 +21,25 @@ function Home() {
             <br></br>
             <h1> Hey, I'm Melissa</h1>
             <br></br>
-            <div className="leftAdj">
-        
-            <h3>Software Engineer </h3>
+            <div>
             <img className="values" src={coding} />
+            <h3>Software Engineer </h3>
+            :da
+            <h3>Visual Artist</h3>
+            <img className="values" src={paint}></img>
             </div>
+            {/* <div className="leftAdj">
+            <img className="values" src={coding} />
+            <h3>Software Engineer </h3>
+  
+       
+            </div>
+ 
             <div className="rightAdj">
             <h3>Visual Artist</h3>
             <img className="values" src={paint}></img>
 
-            </div>
+            </div> */}
             <div>
             </div>
           </div>

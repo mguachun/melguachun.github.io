@@ -3,6 +3,7 @@ import React from "react";
 function About() {
     return(
         <div>
+            <br></br>
             <h4 className="about-blurb">
                 I'm a software engineer with a background in visual arts and literature. As a freelance illustrator,
                 I've always had an interest in image and text through my art. Through coding, I'm able to converge

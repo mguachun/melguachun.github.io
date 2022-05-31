@@ -1,10 +1,11 @@
 import React from 'react';
 import About from "./About";
 import Skills from "./Skills";
-// import Contact from "./Contact";
+import Contact from "./Contact";
 import Projects from "./Projects";
 import Navigation from "./Navigation";
 import Home from "./Home";
+
 // import Resume from "./Resume";
 import './App.css';
 

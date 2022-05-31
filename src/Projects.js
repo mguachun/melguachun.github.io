@@ -7,6 +7,7 @@ import Ghibli from "./images/Ghibli.png";
 import github from './images/github.png';
 // import dev from './images/dev.png'
 import deploy from './images/deploy.png';
+import Contact from './Contact';
 
 
 function Projects() {
@@ -153,12 +154,14 @@ function Projects() {
                   <img src={github} className="project-links"
                   alt="Github to Gallery Space"/>
                 </a>
-               
+              
               </div>
+      
             </div>
-  
+            <Contact />
           </div>
         </div>
+    
    
         </div>
     )

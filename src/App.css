@@ -224,6 +224,12 @@ margin-top: -70px;
     /* overflow: hidden; */
   }
   
+
+  #intro{
+    text-align: center;
+
+  }
+
   #computer{
     height: auto;
     width: 375px;

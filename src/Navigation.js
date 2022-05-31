@@ -27,9 +27,9 @@ function Navigation() {
         <Link className="nav-button" to="projects" spy={true} smooth={false}>
           Projects
         </Link>
-        {/* <Link className="nav-button" to="contact" spy={true} smooth={false}>
+        <Link className="nav-button" to="contact" spy={true} smooth={false}>
           Contact
-        </Link> */}
+        </Link>
         </div>
       </div>
      

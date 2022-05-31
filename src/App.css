@@ -70,6 +70,8 @@ body{
 
 #intro{
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #nav {
@@ -102,7 +104,10 @@ margin-top: -70px;
 .nav-button {
   padding: 5px;
   cursor: pointer;
+  letter-spacing: 0.10em;
 }
+
+
 
 .about-blurb{
   margin-left: 80px;
@@ -155,14 +160,14 @@ margin-top: -70px;
 }
 
 .contact-container {
-  padding-top: 50px;
+  padding-top: 450px;
   padding-bottom: 100px;
-  position: absolute;
+  /* position: absolute; */
   background-color: rgb(234, 238, 251);
   text-align: center;
   justify-content: center;
-  color: white;
-  /* border-top: white solid 1px; */
+  color: #403c6d;
+
 }
 
 .contact-icon {
@@ -209,15 +214,16 @@ margin-top: -70px;
 @media screen and (max-width: 375px) {
   #profile-img{
     border-radius: 1000px;
-    height: 275px;
-    width: 275px;
+    height: 200px;
+    width: 200px;
     display: block;
     margin: 0px auto;
-    margin-top: 150px;
+    margin-top: 170px;
     margin-right:auto;
     margin-left: auto;
     /* overflow: hidden; */
   }
+  
   #computer{
     height: auto;
     width: 375px;
@@ -263,6 +269,36 @@ margin-top: -70px;
 
 }
 
+.img-wrapper{
+  max-width: 200px;
+  position: relative;
+  /* margin-left: 80px; */
+}
+
+.img-wrapper img{
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+
+
+}
+
+.img-wrapper::before{
+  content: "";
+  position: absolute;
+  inset:-15px;
+  border: 6px solid rgb(234, 238, 251);
+  border-top-color:  #827adb;
+  border-bottom-color: #403c6d;
+  border-radius: 50%;
+  z-index: -1;
+  animation: spin 3s linear infinite;
+
+}
+@keyframes spin{
+  to{ transform:rotate(360deg); }
+
+}
   
   
   .nav-right{
@@ -343,6 +379,12 @@ margin-top: -70px;
   grid-gap: 4em;
 } */
 
+.values {
+  background: none;
+  height: 35px;
+  color:#403c6d;
+}
+
 
 .resume{
   width: 450px;
@@ -350,6 +392,22 @@ margin-top: -70px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
- 
 }
+
+.leftAdj{
+  float: left;
+  width: 60%;
+  margin-left: -15px;
+  overflow: hidden;
+
+}
+
+.rightAdj{
+  overflow: hidden;
+
+}
+
+
+
+
 

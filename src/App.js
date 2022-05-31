@@ -5,7 +5,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Navigation from "./Navigation";
 import Home from "./Home";
-import Resume from "./Resume";
+// import Resume from "./Resume";
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Navigation />
       <Home />
       <About />
-      <Resume />
+      {/* <Resume /> */}
       <Skills />
       <Projects />
       {/* <Contact /> */}

@@ -7,7 +7,14 @@ import './App.css';
 function Contact() {
     return (
  
-      <div className=" col-md-12 contact-container">
+      <div className="contact-container">
+        {/* col-md-12  */}
+        <div className="inTouch">
+        <h1>Get in Touch</h1>
+        <p>I'm currently looking for new opportunities. Whether you have a 
+          question or just want to say hi, my inbox is open!</p>
+        </div>
+
         <a
             href="https://www.linkedin.com/in/melissa-guachun/"
             // target="_blank"

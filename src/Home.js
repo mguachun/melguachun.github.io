@@ -24,7 +24,7 @@ function Home() {
             <div>
             <img className="values" src={coding} />
             <h3>Software Engineer </h3>
-            :da
+          
             <h3>Visual Artist</h3>
             <img className="values" src={paint}></img>
             </div>

@@ -176,14 +176,22 @@ margin-top: -70px;
   background-color: rgb(234, 238, 251);
 }
 
-.contactEmail {
- width: 75px;
-}
 
 .contact-icon:hover {
   transform: scale(1.2);
   /* cursor: pointer; */
 }
+
+
+.contactEmail {
+  width: 75px;
+ }
+
+
+.contactEmail:hover {
+  transform: scale(1.2);
+  
+ }
 
 .project-title {
   

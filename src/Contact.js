@@ -41,6 +41,10 @@ function Contact() {
         <img src={dev} alt="" className="contact-icon" />
         </a>
 
+        <div>
+          Created by Melissa Guachun 
+        </div>
+
       </div>
     
     );

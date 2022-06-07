@@ -1,6 +1,7 @@
 import linkedin from './images/linkedin.png'
 import github from './images/github.png'
 import dev from './images/dev.png'
+import email from './images/email.png'
 import './App.css';
 
 
@@ -13,7 +14,9 @@ function Contact() {
         <h1>Get in Touch</h1>
         <p>I'm currently looking for new opportunities. Whether you have a 
           question or just want to say hi, my inbox is open!</p>
+          <a href="mailto:1212malka@gmail.com"><img className="contactEmail" src={email}></img></a>
         </div>
+
 
         <a
             href="https://www.linkedin.com/in/melissa-guachun/"

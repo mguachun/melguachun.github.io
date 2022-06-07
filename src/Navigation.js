@@ -21,15 +21,17 @@ function Navigation() {
           Skills
         </Link>
 
-        {/* <Link className="nav-button" to="resume" spy={true} smooth={false}>
-          Resume
-        </Link> */}
         <Link className="nav-button" to="projects" spy={true} smooth={false}>
           Projects
         </Link>
+
         <Link className="nav-button" to="contact" spy={true} smooth={false}>
           Contact
         </Link>
+
+        <a className="nav-button" href="https://www.melguachunart.com/" spy={true} smooth={false}>
+          Art
+        </a>
         </div>
       </div>
      

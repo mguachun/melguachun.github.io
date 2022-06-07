@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/melguachun.github.io/static/css/main.18081716.css",
-    "main.js": "/melguachun.github.io/static/js/main.94b2b7af.js",
+    "main.css": "/melguachun.github.io/static/css/main.52c818ac.css",
+    "main.js": "/melguachun.github.io/static/js/main.ea0d2f5f.js",
     "static/js/787.3a4dfadf.chunk.js": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js",
     "static/media/profile_img.png": "/melguachun.github.io/static/media/profile_img.9ccb5f087242a60af74b.png",
     "static/media/Ghibli.png": "/melguachun.github.io/static/media/Ghibli.286d56fcf7198f3ddee9.png",
@@ -13,14 +13,15 @@
     "static/media/GallerySpace.png": "/melguachun.github.io/static/media/GallerySpace.d35050c1a47f4658208e.png",
     "static/media/paint.png": "/melguachun.github.io/static/media/paint.5be5e4675f82d91eb9f3.png",
     "static/media/coding.png": "/melguachun.github.io/static/media/coding.a3406fa6b026d3bd5185.png",
+    "static/media/email.png": "/melguachun.github.io/static/media/email.3207f77f2fc0c794b23a.png",
     "static/media/sql.svg": "/melguachun.github.io/static/media/sql.c4c3db6258e06a7ebd14ebf59ef05a74.svg",
     "index.html": "/melguachun.github.io/index.html",
-    "main.18081716.css.map": "/melguachun.github.io/static/css/main.18081716.css.map",
-    "main.94b2b7af.js.map": "/melguachun.github.io/static/js/main.94b2b7af.js.map",
+    "main.52c818ac.css.map": "/melguachun.github.io/static/css/main.52c818ac.css.map",
+    "main.ea0d2f5f.js.map": "/melguachun.github.io/static/js/main.ea0d2f5f.js.map",
     "787.3a4dfadf.chunk.js.map": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18081716.css",
-    "static/js/main.94b2b7af.js"
+    "static/css/main.52c818ac.css",
+    "static/js/main.ea0d2f5f.js"
   ]
 }

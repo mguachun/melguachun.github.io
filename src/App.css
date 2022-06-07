@@ -105,9 +105,17 @@ margin-top: -70px;
   padding: 5px;
   cursor: pointer;
   letter-spacing: 0.10em;
+  text-decoration: none;
+  color: black;
 }
 
-
+/* .nav-button:hover {
+  padding: 5px;
+  cursor: pointer;
+  letter-spacing: 0.10em;
+  text-decoration: none;
+  color: black;
+} */
 
 .about-blurb{
   margin-left: 80px;

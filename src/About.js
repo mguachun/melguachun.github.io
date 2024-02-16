@@ -34,7 +34,7 @@ import Card from "react-bootstrap/Card";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view" id="about">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify", marginTop: "30px;" }}>
@@ -44,10 +44,6 @@ function AboutCard() {
             art to create functional yet visually stunning projects. 
             <br />
             </p>
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

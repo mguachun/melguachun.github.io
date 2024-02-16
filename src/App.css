@@ -17,8 +17,8 @@ body{
 
 #profile-img{
   border-radius: 1000px;
-  height: 275px;
-  width: 275px;
+  height: 175px;
+  width: 175px;
   display: block;
   justify-content: center;
   margin: 0px auto;
@@ -191,8 +191,10 @@ margin-top: -70px;
 
 
 .contactEmail {
-  width: 75px;
+  margin-bottom: 25px;
+  width: 60px;
   padding: 6px;
+
  }
 
 

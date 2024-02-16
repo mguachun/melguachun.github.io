@@ -8,7 +8,7 @@ import './App.css';
 function Contact() {
     return (
  
-      <div className="contact-container">
+      <div className="contact-container" id="contact">
         <h1>Get in Touch</h1>
         <div>I'm currently looking for new opportunities.</div>
         <div>Whether you have a question or just want to say hi, my inbox is open!</div>

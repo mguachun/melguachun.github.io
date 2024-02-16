@@ -41,7 +41,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "./images/profile_img.png";
 import computerIcon from "./images/computer-plain.jpg"
-
+import './App.css';
 
 function Home() {
   return (
@@ -49,10 +49,10 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+            <Col md={6} className="home-header">
+              <h1 style={{ paddingBottom: 15, paddingTop:15 }} className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                <span className="wave" role="img">
                 <img
                 src={computerIcon}
                 alt="home pic"
@@ -63,7 +63,8 @@ function Home() {
               <h1 className="heading-name">
                 I'm <strong className="main-name">Melissa Guachun</strong>
               </h1>
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <h4>Software Engineer / Visual Artist</h4>
+              <div style={{ padding: "50px", textAlign: "left" }}>
               </div>
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -71,7 +72,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "275px", marginTop: "50px"  }}
               />
             </Col>
           </Row>

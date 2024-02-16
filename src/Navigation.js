@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "./Projects"
+import Projects from './Projects'
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-scroll";
 // import { HashLink as Link } from 'react-router-hash-link';

@@ -9,14 +9,13 @@ function Contact() {
     return (
  
       <div className="contact-container">
-        {/* col-md-12  */}
-        <div className="inTouch">
         <h1>Get in Touch</h1>
-        <p>I'm currently looking for new opportunities. Whether you have a 
-          question or just want to say hi, my inbox is open!</p>
-          <a href="mailto:1212malka@gmail.com"><img className="contactEmail" src={email}></img></a>
-        </div>
-
+        <div>I'm currently looking for new opportunities.</div>
+        <div>Whether you have a question or just want to say hi, my inbox is open!</div>
+        <a href="mailto:1212malka@gmail.com">
+        </a>
+        <img className="contactEmail" src={email}>
+          </img>
 
         <a
             href="https://www.linkedin.com/in/melissa-guachun/"
@@ -42,7 +41,7 @@ function Contact() {
         </a>
 
         <div>
-          Created by Melissa Guachun 
+          Created by Melissa Guachun 2024
         </div>
 
       </div>

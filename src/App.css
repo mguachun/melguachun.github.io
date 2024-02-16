@@ -118,10 +118,9 @@ margin-top: -70px;
 } */
 
 .about-blurb{
-  margin-left: 80px;
-  margin-right: 80px;
   margin-top: 10px;
   text-align: center;
+  width: 300px;
 }
 
 .skills-container {
@@ -168,7 +167,7 @@ margin-top: -70px;
 }
 
 .contact-container {
-  padding-top: 450px;
+  padding-top: 10px;
   padding-bottom: 100px;
   /* position: absolute; */
   background-color: rgb(234, 238, 251);
@@ -193,6 +192,7 @@ margin-top: -70px;
 
 .contactEmail {
   width: 75px;
+  padding: 6px;
  }
 
 

@@ -1,10 +1,10 @@
 // import React from "react";
-import self from "./images/profile_img.png"
+// import self from "./images/profile_img.png"
 // import linkedin from './images/linkedin.png'
 // import github from './images/github.png'
 // import dev from './images/dev.png'
-import paint from './images/paint.png'
-import coding from './images/coding.png'
+// import paint from './images/paint.png'
+// import coding from './images/coding.png'
 
 // function Home() {
 //   return (

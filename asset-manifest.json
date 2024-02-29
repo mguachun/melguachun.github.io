@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/melguachun.github.io/static/css/main.a0df9549.css",
-    "main.js": "/melguachun.github.io/static/js/main.555a4226.js",
+    "main.css": "/melguachun.github.io/static/css/main.476157e2.css",
+    "main.js": "/melguachun.github.io/static/js/main.87165e0e.js",
     "static/js/787.3a4dfadf.chunk.js": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js",
     "static/media/profile_img.png": "/melguachun.github.io/static/media/profile_img.9ccb5f087242a60af74b.png",
     "static/media/Ghibli.png": "/melguachun.github.io/static/media/Ghibli.286d56fcf7198f3ddee9.png",
@@ -15,12 +15,12 @@
     "static/media/email.png": "/melguachun.github.io/static/media/email.3207f77f2fc0c794b23a.png",
     "static/media/sql.svg": "/melguachun.github.io/static/media/sql.c4c3db6258e06a7ebd14ebf59ef05a74.svg",
     "index.html": "/melguachun.github.io/index.html",
-    "main.a0df9549.css.map": "/melguachun.github.io/static/css/main.a0df9549.css.map",
-    "main.555a4226.js.map": "/melguachun.github.io/static/js/main.555a4226.js.map",
+    "main.476157e2.css.map": "/melguachun.github.io/static/css/main.476157e2.css.map",
+    "main.87165e0e.js.map": "/melguachun.github.io/static/js/main.87165e0e.js.map",
     "787.3a4dfadf.chunk.js.map": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0df9549.css",
-    "static/js/main.555a4226.js"
+    "static/css/main.476157e2.css",
+    "static/js/main.87165e0e.js"
   ]
 }

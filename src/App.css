@@ -150,14 +150,12 @@ margin-top: -70px;
   border-radius: 1000px;
   background-color: #93A6B8ff;
   box-shadow: 0 4px 6px 0 hsl(0deg 0% 0% / 50%);
-  border: 1px #403c6d;
 }
 
 
 .skill-icon-container {
   background: none;
   text-align: center;
-  margin: 20px;
 }
 
 .skill-icon-container > p {

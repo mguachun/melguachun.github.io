@@ -1,10 +1,10 @@
 // import React from "react";
-// import self from "./images/profile_img.png"
+import self from "./images/profile_img.png"
 // import linkedin from './images/linkedin.png'
 // import github from './images/github.png'
 // import dev from './images/dev.png'
-// import paint from './images/paint.png'
-// import coding from './images/coding.png'
+import paint from './images/paint.png'
+import coding from './images/coding.png'
 
 // function Home() {
 //   return (
@@ -47,36 +47,32 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Container className="home-content">
           <Row>
             <Col md={6} className="home-header">
-              <h1 style={{ paddingBottom: 15, paddingTop:15 }} className="heading">
+              <h1 style={{ paddingTop: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img">
-                <img
-                src={computerIcon}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "150px" }}/>
+                  <img
+                    src={computerIcon}
+                    alt="home pic"
+                    className="img-fluid"
+                    style={{ maxHeight: "150px" }} />
                 </span>
               </h1>
               <h1 className="heading-name">
                 I'm <strong className="main-name">Melissa Guachun</strong>
               </h1>
               <h4>Software Engineer / Visual Artist</h4>
-              <div style={{ padding: "50px", textAlign: "left" }}>
-              </div>
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "275px", marginTop: "50px"  }}
+                style={{ maxHeight: "275px", padding: "20px" }}
               />
             </Col>
           </Row>
-        </Container>
       </Container>
     </section>
   );

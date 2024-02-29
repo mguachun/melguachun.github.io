@@ -1,7 +1,7 @@
 import React from "react";
-import Projects from './Projects'
-import Nav from 'react-bootstrap/Nav';
-import { Link } from "react-scroll";
+import Projects from './Projects';
+// import Nav from 'react-bootstrap/Nav';
+// import { Link } from "react-scroll";
 import './App.css';
 function Navigation() {
   return (

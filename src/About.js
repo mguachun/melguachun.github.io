@@ -40,8 +40,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify", marginTop: "30px;" }}>
             <br />
             I'm a software engineer with a background in visual arts and literature. As a freelance illustrator,
-            I've always had an interest in image and text through my art. Through coding, I'm able to converge                 my passions for language and design to positively impact others. As a sortware engineer, I strive to be the connection between the technical world of coding and the visual aesthetics of fine 
-            art to create functional yet visually stunning projects. 
+            I've always had an interest in image and text through my art. Through coding, I'm able to converge 
+            my passions for language and design to positively impact others. As a sortware engineer, I strive to 
+            be the connection between the technical world of coding and the visual aesthetics of fine 
+            art to create functional yet visually pleasing projects. 
             <br />
             </p>
         </blockquote>

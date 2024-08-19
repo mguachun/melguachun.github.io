@@ -1,7 +1,5 @@
 import React from "react";
 import Projects from './Projects';
-// import Nav from 'react-bootstrap/Nav';
-// import { Link } from "react-scroll";
 import './App.css';
 function Navigation() {
   return (
@@ -27,9 +25,6 @@ function Navigation() {
           <li class="nav-item active">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-          {/* <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li> */}
         </ul>
       </div>
     </nav>
@@ -37,35 +32,3 @@ function Navigation() {
 }
 
 export default Navigation
-//     <div id="nav">
-//       <div className="nav-left">
-//         <p className="nav-name">Melissa Guachun
-//           <img src={require("./images/computer-plain.jpg")} alt="logo" id="logo" />
-//         </p>
-//       </div>
-//       <div className="nav-right">
-//       <Link className="nav-button" to="about-blurb" spy={true} smooth={false}>
-//           About
-//         </Link>
-   
-//         <Link className="nav-button" to="skills" spy={true} smooth={false}>
-//           Skills
-//         </Link>
-
-//         <Link className="nav-button" to="projects" spy={true} smooth={false}>
-//           Projects
-//         </Link>
-
-//         <Link className="nav-button" to="contact" spy={true} smooth={false}>
-//           Contact
-//         </Link>
-
-//         <a className="nav-button" href="https://www.melguachunart.com/" spy={true} smooth={false}>
-//           Art
-//         </a>
-//         </div>
-//       </div>
-     
-//       )
-// }
-//     export default Navigation

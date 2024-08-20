@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/melguachun.github.io/static/css/main.dd4cc801.css",
-    "main.js": "/melguachun.github.io/static/js/main.c3168a2d.js",
+    "main.css": "/melguachun.github.io/static/css/main.310eccbb.css",
+    "main.js": "/melguachun.github.io/static/js/main.3e7f4afa.js",
     "static/js/787.3a4dfadf.chunk.js": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js",
     "static/media/Ghibli.png": "/melguachun.github.io/static/media/Ghibli.286d56fcf7198f3ddee9.png",
     "static/media/Ticket_Tracker.png": "/melguachun.github.io/static/media/Ticket_Tracker.24f7de7afffdefd1d102.png",
@@ -11,12 +11,12 @@
     "static/media/email.png": "/melguachun.github.io/static/media/email.3207f77f2fc0c794b23a.png",
     "static/media/sql.svg": "/melguachun.github.io/static/media/sql.c4c3db6258e06a7ebd14ebf59ef05a74.svg",
     "index.html": "/melguachun.github.io/index.html",
-    "main.dd4cc801.css.map": "/melguachun.github.io/static/css/main.dd4cc801.css.map",
-    "main.c3168a2d.js.map": "/melguachun.github.io/static/js/main.c3168a2d.js.map",
+    "main.310eccbb.css.map": "/melguachun.github.io/static/css/main.310eccbb.css.map",
+    "main.3e7f4afa.js.map": "/melguachun.github.io/static/js/main.3e7f4afa.js.map",
     "787.3a4dfadf.chunk.js.map": "/melguachun.github.io/static/js/787.3a4dfadf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd4cc801.css",
-    "static/js/main.c3168a2d.js"
+    "static/css/main.310eccbb.css",
+    "static/js/main.3e7f4afa.js"
   ]
 }

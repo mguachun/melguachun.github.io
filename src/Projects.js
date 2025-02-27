@@ -2,7 +2,7 @@ import React from "react";
 import GallerySpace from "./images/GallerySpace.png";
 import TicketTracker from "./images/Ticket_Tracker.png";
 import Wishlist from "./images/Record_Wishlist.png";
-import Ghibli from "./images/Ghibli.png";
+import Stock from "./images/stock-highchart.png";
 // import linkedin from './images/linkedin.png'
 import github from './images/github.png';
 // import dev from './images/dev.png'
@@ -22,38 +22,38 @@ function Projects() {
           <div className="col-md-12 project-container justify-content-center">
             <div className="card border-rad project-card" style={{ width: "35rem", height: "40rem"}}>
               <div className="image-container">
-                <img src={Ghibli} className=" border-rad card-img-top project-img" alt="..." />
+                <img src={Stock} className=" border-rad card-img-top project-img" alt="..." />
               </div>
               <div className="card-body border-rad background-white">
-                <h5 className="card-title background-white">Studio Ghibli Collection</h5>
+                <h5 className="card-title background-white">Stock Highchart</h5>
                 <h6 className="card-subtitle mb-2 text-muted background-white">
-                  React, Bootstrap, CSS, NPM, Async Fetch, Public API
+                  React.js, Javascript, Async Fetch, Public API, Vite, Highcharts
                 </h6>
                 <p className="card-text background-white">
-                  Studio Ghibli Collection is a centralized hub for exploring and discovering 
-                  the filmography of Studio Ghibli. Users can click on a given movie title and find 
-                  specific information on their movie of choice such as title translation, director, producer, 
-                  synopsis and so much more! This frontend application was created with React.js and receives 
-                  information from asynchronous fetching from an API. 
+                  Stock-Highcharts is an application that utilizes the Highcarts Library to track and display the properties of Apple (APPL) stock.
+                  Historic stock data is fetched from an API call and maps the data according to stock's property. Features include a dropdown menu, where
+                  a user is able to interactively select a property and view the stock data in a line graph. As well as a click and drag tooltip to track
+                  the rise and fall of stock data at a specific point in time. React hooks and custom hooks are used to apply stateful logic to the functional components.  
+                  The application is built with React.js, Javascript, Vite, and utilizes the Highcharts library to render the stock data.
                 </p>
                 <a
-                  href="https://mguachun.github.io/ghibli-fetch/"
+                  href="https://github.com/mguachun/stock-highchart"
                   className="card-link background-white"
 
                   // target="_blank"
                 >
                   <img src={github} className="project-links"
-                     alt="Github to Studio Ghibli App"/>
+                     alt="Github to Stock Highchart App"/>
                 </a>
                 
                 <a
-                  href="https://mguachun.github.io/studio_ghibli_collection/"
+                  href="https://mguachun.github.io/stock-highchart/"
                   className="card-link background-white"
 
                   // target="_blank"
                 >
                   <img src={deploy}  className="project-links"
-                     alt="Deployed Studio Ghibli App"/>
+                     alt="Deployed Stock Highchart App"/>
                 </a>
                 
                

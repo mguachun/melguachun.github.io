@@ -1,12 +1,9 @@
 import React from 'react';
-import About from './About';
-import Skills from './Skills';
-// import Contact from './Contact';
-import Projects from './Projects';
 import Navigation from './Navigation';
 import Home from './Home';
-
-// import Resume from "./Resume";
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
 import './App.css';
 
 function App() {
@@ -15,13 +12,8 @@ function App() {
       <Navigation />
       <Home />
       <About />
-      {/* <Resume /> */}
       <Skills />
       <Projects />
-      {/* <Contact /> */}
-
-
-  
     </div>
 
   );

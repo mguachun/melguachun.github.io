@@ -3,9 +3,18 @@
 .App {
   text-align: center; 
 }
-body{
-  background-color: rgb(234, 238, 251);
+body, html{
   font-family: 'MuseoModerno', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.home-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #000 0%, #01010a 100%);
+  overflow: hidden;
 }
 
 #logo {
@@ -411,15 +420,6 @@ a {
 }
 
 
-/* .project-container { */
-  /* padding: 4rem; */
-  /* margin-left: 20rem;
-  margin-right: 20rem;
-  
-  display:column;
-  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
-  
-}  */
 
 .project-container {
   display: flex;
@@ -430,16 +430,7 @@ a {
   margin-top: 25px;
   margin-bottom: 100px;
 }
-/* /for a grid display/ */
-/* .project-container{
-  padding: 4rem;
-  margin-left: 16rem;
-  margin-right: 16rem;
-  
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 4em;
-} */
+
 
 .values {
   background: none;
@@ -466,9 +457,23 @@ a {
 
 .rightAdj{
   overflow: hidden;
-
 }
 
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.2; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 0.3; transform: scale(1); }
+}
 
 
 

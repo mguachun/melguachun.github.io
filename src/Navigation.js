@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a className="navbar-brand" href="#">
-        Mel Guachun
+        &nbsp;Mel Guachun
       </a>
       <button
         className="navbar-toggler"

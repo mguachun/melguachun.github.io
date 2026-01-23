@@ -1,11 +1,11 @@
 // Home.js
 import React, { useMemo } from "react";
 import "./App.css";
+import favicon from "./images/favicon.png";
 
-const NUM_STARS = 150; // number of stars in the background
+const NUM_STARS = 150;
 
 const Home = () => {
-  // Generate random star positions and animation timing once
   const stars = useMemo(() => {
     return Array.from({ length: NUM_STARS }).map(() => ({
       top: Math.random() * 100 + "vh",
@@ -17,12 +17,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home-background relative w-full h-screen overflow-hidden">
-      {/* Twinkling stars */}
+    <div className="home-background">
       {stars.map((star, index) => (
         <div
           key={index}
-          className="star absolute bg-white rounded-full"
+          className="star"
           style={{
             top: star.top,
             left: star.left,
@@ -34,14 +33,16 @@ const Home = () => {
         />
       ))}
 
-      {/* Hero content */}
-      <div id="welcome-section" className="welcome-section absolute inset-0 flex flex-col items-center justify-center z-10 text-center px-4">
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-          Hi, I'm Mel Guachun
-        </h1>
-        <h2 className="text-lg md:text-xl text-gray-300 mb-6">
-          Software Engineer
-        </h2>
+      <div id="welcome-section" className="welcome-section">
+        <h1>Hi, I'm Mel Guachun</h1>
+        <h2>Software Engineer && Fine Artist</h2>
+
+        {/* Profile Image */}
+        <img
+          src={favicon}
+          alt="Mel Guachun"
+          id="profile-img"
+        />
       </div>
     </div>
   );

@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/melguachun.github.io/static/css/main.89b750d1.css",
-    "main.js": "/melguachun.github.io/static/js/main.1892aabb.js",
+    "main.css": "/melguachun.github.io/static/css/main.9e6cb00b.css",
+    "main.js": "/melguachun.github.io/static/js/main.b70e10d4.js",
     "static/js/453.446c7292.chunk.js": "/melguachun.github.io/static/js/453.446c7292.chunk.js",
     "static/media/favicon.png": "/melguachun.github.io/static/media/favicon.1d4ca96cb0da74dc001c.png",
     "static/media/Ticket_Tracker.png": "/melguachun.github.io/static/media/Ticket_Tracker.24f7de7afffdefd1d102.png",
     "static/media/ToDoList.png": "/melguachun.github.io/static/media/ToDoList.832b629314b751eca8b7.png",
     "static/media/Record_Wishlist.png": "/melguachun.github.io/static/media/Record_Wishlist.b331f4270f82eb800bcc.png",
     "static/media/photoshop.png": "/melguachun.github.io/static/media/photoshop.17d3a9a4235587ca193a.png",
-    "static/media/stock-highchart.png": "/melguachun.github.io/static/media/stock-highchart.0ebe3a139d60510c6c07.png",
+    "static/media/iasip.png": "/melguachun.github.io/static/media/iasip.2da36e07cf3bef5f4591.png",
     "static/media/email.png": "/melguachun.github.io/static/media/email.3207f77f2fc0c794b23a.png",
-    "static/media/sql.svg": "/melguachun.github.io/static/media/sql.c4c3db6258e06a7ebd14ebf59ef05a74.svg",
     "index.html": "/melguachun.github.io/index.html",
-    "main.89b750d1.css.map": "/melguachun.github.io/static/css/main.89b750d1.css.map",
-    "main.1892aabb.js.map": "/melguachun.github.io/static/js/main.1892aabb.js.map",
+    "main.9e6cb00b.css.map": "/melguachun.github.io/static/css/main.9e6cb00b.css.map",
+    "main.b70e10d4.js.map": "/melguachun.github.io/static/js/main.b70e10d4.js.map",
     "453.446c7292.chunk.js.map": "/melguachun.github.io/static/js/453.446c7292.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89b750d1.css",
-    "static/js/main.1892aabb.js"
+    "static/css/main.9e6cb00b.css",
+    "static/js/main.b70e10d4.js"
   ]
 }
